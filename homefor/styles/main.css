@@ -2032,7 +2032,7 @@ label {
   }
 
   .header-item {
-    margin-right: 45px;
+    margin-right: 37px;
   }
 
   .header__tel {
@@ -2768,7 +2768,7 @@ label {
 
 @media (max-width: 340px) {
   .form__input {
-    padding: 17px 94px 16px 11px;
+    padding: 17px 76px 16px 11px;
     margin-bottom: 16px;
   }
 }
