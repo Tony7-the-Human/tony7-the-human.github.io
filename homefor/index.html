@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HomeforWeb</title>
+    <meta name="theme-color" content="#fff">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="shortcut icon" href="img/favicons/favicon.ico" type="image/x-icon">
+    <link rel="icon" sizes="16x16" href="img/favicons/favicon-16x16.png" type="image/png">
+    <link rel="icon" sizes="32x32" href="img/favicons/favicon-32x32.png" type="image/png">
+    <link rel="apple-touch-icon-precomposed" href="img/favicons/apple-touch-icon-precomposed.png">
+    <link rel="apple-touch-icon" href="img/favicons/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="img/favicons/apple-touch-icon-167x167.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="1024x1024" href="img/favicons/apple-touch-icon-1024x1024.png">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://jqueryui.com/resources/demos/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+    </style>
+
+</head>
+
+<body>
+
+    <section class="section-main">
+        <header class="header">
+    <div class="header-item-1">
+        <button type="button" class="header__menu" style="cursor:pointer" onclick="openNav()"></button>
+    </div>
+    <div class="header-item">
+        <div class="logo">
+            <img src="./img/HOMEFOR.svg" alt="">
+        </div>
+        <nav>
+            <ul class="nav">
+                <li class="nav-item"><a class="nav-link" href="#">Загородные</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Городские</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">О компании</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Наши новости</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="header-item">
+        <a class="header__address" href="#">Екатеринбург</a>
+        <a class="header__tel" href="tel:+73833456012">+7 (383) 345-60-12</a>
+    </div>
+    <!-- mobile menu -->
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <div class="overlay-content">
+            <li class="nav-item"><a class="nav-link" href="#">Загородные</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Городские</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">О компании</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Наши новости</a></li>
+        </div>
+    </div>
+    <!-- /mobile menu -->
+</header>
+        <div class="wrapper">
+            <div class="slider">
+                <div class="slider-child slider-display">
+                    <div class="slider-item">
+                        <div class="main-text">
+                            <h1 class="title">Жилой комплекс HOMEFOR -<br>это жизнь с комфортом</h1>
+                            <p class="main-text__description">Мы охватываем все важные этапы проектирование и строительство<br> дома, а также повседневная эксплуатация после окончания</p>
+                            <a href="#" class="btn">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-child slider-display">
+                    <div class="slider-item">
+                        <div class="main-text">
+                            <h1 class="title">Жилой комплекс HOMEFOR -<br>это жизнь с комфортом</h1>
+
+                            <p class="main-text__description">Мы охватываем все важные этапы проектирование и строительство<br> дома, а также повседневная эксплуатация после окончания</p>
+
+                            <a href="" class="btn">Подробнее</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-child slider-display">
+                    <div class="slider-item">
+                        <div class="main-text">
+                            <h1 class="title">Жилой комплекс HOMEFOR -<br>это жизнь с комфортом</h1>
+                            <p class="main-text__description">Мы охватываем все важные этапы проектирование и строительство<br> дома, а также повседневная эксплуатация после окончания</p>
+                          
+                            <a href="" class="btn">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /section main -->
+    <!-- section filters -->
+    <section class="section-filters">
+        <div class="wrapper">
+            <div class="filter-dropdown">
+                <div class="dropdown">
+                    <a class="dropbtn-left">Тип обекта</a>
+                    <div class="dropdown-content" style="left:0;">
+                        <a href="#">Квартиры</a>
+                        <a href="#">Загородные дома</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a class="dropbtn-right">Район</a>
+                    <div class="dropdown-content">
+                        <a href="#">Квартиры</a>
+                        <a href="#">Загородные дома</a>
+                    </div>
+                </div>
+            </div>
+            <div class="filter">
+                <div class="filter-items">
+                    <div class="filter-item">
+                        <div class="filter-item__sqr">
+                            <p class="filter-item__text">Площадь</p>
+                        </div>
+                        <div class="filter-item__size">
+                            <input class="filter-item__input" type="text" id="check3"><label for="check3">м2</label>
+                        </div>
+                        <div id="slider-range">
+                            <div class="slider-range-count">
+                                <p class="slider-range-count__value">0</p>
+                                <p class="slider-range-count__value">120</p>
+                                <p class="slider-range-count__value">1 000</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filter-item">
+                        <div class="filter-item__price">
+                            <p class="filter-item__text">Цена за м2</p>
+                        </div>
+                        <div class="filter-item__value">
+                            <input class="filter-item__input" type="text" id="check3"><label for="check3">тыс.</label>
+                        </div>
+                        <div id="slider-range02">
+                            <div class="slider-range-count">
+                                <p class="slider-range-count__value">0</p>
+                                <p class="slider-range-count__value">10 350</p>
+                                <p class="slider-range-count__value">98 000</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="filter-button">
+                <div class="filter-button-item">
+                    <button class="filter-button__reset">Сбросить фильтры</button>
+                </div>
+
+                <div class="filter-button-item">
+                    <button class="form__btn filter__btn">Показать</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- /section filters -->
+    <!-- section village -->
+    <section class="section-village">
+        <div class="wrapper">
+            <div class="village-text">
+                <h2 class="title village-text__title">Загородные дома</h2>
+                <p class="village-text__description">Наши дома расположились в уютных районах Екатеринбурга:<br>Верх-Исетский район, Железнодорожный район, Чкаловский район.</p>
+            </div>
+            <div class="slider-slider">
+                <div class="slider-child">
+                    <div class="card">
+                        <div class="card__content card__content__img">
+                            <img class="card__img ibg" src="./img/image-22.png" alt="Дом “Брусника”">
+                            <h3 class="card__title">Дом “Брусника”</h3>
+                            <div class="card__address">ул. Карла Маркса, 60, Екатеринбург</div>
+                            <div class="card__baige">
+                                <img src="./img/like.png" alt="Like">
+                            </div>
+                            <div class="card-footer">
+                                <ul class="card-description">
+                                    <li class="card-description card-description__01">200 м2</li>
+                                    <li class="card-description card-description__02">10 сот</li>
+                                    <li class="card-description card-description__03">с отдекой</li>
+                                </ul>
+                                <div class="card__price">7 005 456 500 ₽</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-child">
+                    <div class="card">
+                        <div class="card__content card__content__img">
+                            <img class="card__img ibg" src="./img/image-33.png" alt="Дом “Трендис”">
+                            <h3 class="card__title">Дом “Трендис”</h3>
+                            <div class="card__address">ул. Урицкого, 13, Екатеринбург</div>
+                            <div class="card__baige">
+                                <img src="./img/like.png" alt="Like">
+                            </div>
+                            <div class="card-footer">
+                                <ul class="card-description">
+                                    <li class="card-description card-description__01">500 м2</li>
+                                    <li class="card-description card-description__02">12 сот</li>
+                                    <li class="card-description card-description__03">с отдекой</li>
+                                </ul>
+                                <div class="card__price">10 000 234 500 ₽</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-child">
+                    <div class="card">
+                        <div class="card__content card__content__img">
+                            <img class="card__img ibg" src="./img/image-11.png" alt="Дома “Панорома”">
+                            <h3 class="card__title">Дома “Панорома”</h3>
+                            <div class="card__address">ул. Толстого, 340, Екатеринбург</div>
+                            <div class="card__baige">
+                                <img src="./img/like.png" alt="Like">
+                            </div>
+                            <div class="card-footer">
+                                <ul class="card-description">
+                                    <li class="card-description card-description__01">150 м2</li>
+                                    <li class="card-description card-description__02">13 сот</li>
+                                    <li class="card-description card-description__03">с отдекой</li>
+                                </ul>
+                                <div class="card__price">5 045 000 500 ₽</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-child">
+                    <div class="card">
+                        <div class="card__content card__content__img">
+                            <img class="card__img ibg" src="./img/image-2.png" alt="Дом “Трендис”">
+                            <h3 class="card__title">Дом “Трендис”</h3>
+                            <div class="card__address">ул. Урицкого, 13, Екатеринбург</div>
+                            <div class="card__baige">
+                                <img src="./img/like.png" alt="Like">
+                            </div>
+                            <div class="card-footer">
+                                <ul class="card-description">
+                                    <li class="card-description card-description__01">500 м2</li>
+                                    <li class="card-description card-description__02">12 сот</li>
+                                    <li class="card-description card-description__03">с отдекой</li>
+                                </ul>
+                                <div class="card__price">10 000 234 500 ₽</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- /section village -->
+    <!-- section city -->
+    <section class="section-city">
+        <div class="wrapper">
+            <div class="city-text">
+                <h2 class="title city-text__title">Городские квартиры</h2>
+                <p class="city-text__description">В каталоге квартир вы найдете актуальные планировки и цены. Это те квартиры, которые есть в продаже сейчас.</p>
+            </div>
+            <div class="row">
+                <a class="card-link" href="#">
+                    <div class="card">
+                        <div class="card__content card__content__img">
+                            <img class="card__img ibg" src="./img/image-2.png" alt="Дом “Жуковка”">
+                            <div class="card__baige">
+                                <img src="./img/like.png" alt="Like">
+                            </div>
+                            <div class="card-footer">
+                                <h3 class="card__title">Дом “Жуковка”</h3>
+                                <div class="card__address">ул. Карла Маркса, 60, Екатеринбург</div>
+                                <ul class="card-description">
+                                    <li class="card-description card-description__01">72 м2</li>
+                                    <!-- <li class="card-description card-description__02">10 сот</li> -->
+                                    <li class="card-description card-description__03">с отдекой</li>
+                                </ul>
+                                <div class="card__price">3 006 435 500 ₽</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a class="card-link" href="#">
+                    <div class="card">
+                        <div class="card__content card__content__img">
+                            <img class="card__img ibg" src="./img/image-4.png" alt="Дом “Парашют”">
+                            <div class="card__baige">
+                                <img src="./img/like.png" alt="Like">
+                            </div>
+                            <div class="card-footer">
+                                <h3 class="card__title">Дом “Парашют”</h3>
+                                <div class="card__address">ул. Зорге, 160, Екатеринбург</div>
+                                <ul class="card-description">
+                                    <li class="card-description card-description__01">112 м2</li>
+                                    <!-- <li class="card-description card-description__02">10 сот</li> -->
+                                    <li class="card-description card-description__03">с отдекой</li>
+                                </ul>
+                                <div class="card__price">5 000 974 500 ₽</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a class="card-link" href="#">
+                    <div class="card">
+                        <div class="card__content card__content__img">
+                            <img class="card__img ibg" src="./img/image-5.png" alt="Дом “Весна”">
+
+                            <div class="card__baige">
+                                <img src="./img/like.png" alt="Like">
+                            </div>
+                            <div class="card-footer">
+                                <h3 class="card__title">Дом “Весна”</h3>
+                                <div class="card__address">ул. Заречная, 120, Екатеринбург</div>
+                                <ul class="card-description">
+
+                                    <li class="card-description card-description__01">100 м2</li>
+                                    <!-- <li class="card-description card-description__02">10 сот</li> -->
+                                    <li class="card-description card-description__03">с отдекой</li>
+                                </ul>
+                                <div class="card__price">6 120 412 500 ₽</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a class="card-link" href="#">
+                    <div class="card">
+                        <div class="card__content card__content__img">
+                            <img class="card__img ibg" src="./img/image-3.png" alt="Дом “Пионер”">
+
+                            <div class="card__baige">
+                                <img src="./img/like.png" alt="Like">
+                            </div>
+                            <div class="card-footer">
+                                <h3 class="card__title">Дом “Пионер”</h3>
+                                <div class="card__address">ул. Карла Маркса, 120, Екатеринбург</div>
+                                <ul class="card-description">
+                                    <li class="card-description card-description__01">90 м2</li>
+                                    <!-- <li class="card-description card-description__02">10 сот</li> -->
+                                    <li class="card-description card-description__03">с отдекой</li>
+                                </ul>
+                                <div class="card__price">3 120 000 500 ₽</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a class="card-link" href="#">
+                    <div class="card">
+                        <div class="card__content card__content__img">
+                            <img class="card__img ibg" src="./img/image-6.png" alt="Дом “Манхетен”">
+
+                            <div class="card__baige">
+                                <img src="./img/like.png" alt="Like">
+                            </div>
+                            <div class="card-footer">
+                                <h3 class="card__title">Дом “Манхетен”</h3>
+                                <div class="card__address">ул. Московская, 10, Екатеринбург</div>
+                                <ul class="card-description">
+                                    <li class="card-description card-description__01">87 м2</li>
+                                    <!-- <li class="card-description card-description__02">10 сот</li> -->
+                                    <li class="card-description card-description__03">с отдекой</li>
+                                </ul>
+                                <div class="card__price">6 000 456 000 ₽</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a class="card-link" href="#">
+                    <div class="card">
+                        <div class="card__content card__content__img">
+                            <img class="card__img ibg" src="./img/image-7.png" alt="Дом “Дружба”">
+
+                            <div class="card__baige">
+                                <img src="./img/like.png" alt="Like">
+                            </div>
+                            <div class="card-footer">
+                                <h3 class="card__title">Дом “Дружба”</h3>
+                                <div class="card__address">ул. Прашина, 60, Екатеринбург</div>
+                                <ul class="card-description">
+                                    <li class="card-description card-description__01">50 м2</li>
+                                    <!-- <li class="card-description card-description__02">10 сот</li> -->
+                                    <li class="card-description card-description__03">с отдекой</li>
+                                </ul>
+                                <div class="card__price">4 012 400 500 ₽</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <button class="more__btn">Смотреть больше</button>
+    </section>
+    <!-- /section city -->
+    <!-- section plan -->
+    <section class="section-plan">
+        <div class="wrapper">
+            <div class="plan-text">
+                <h2 class="title plan-text__title">Генплан</h2>
+                <p class="plan-text__description">На генплане вы можете посмотреть территорию покупки. В поселке все предусмотрено. Здесь проведены необходимые коммуникации.Это место влюбляет в себя.</p>
+            </div>
+            <ul class="plan-list">
+                <li class="plan-list__item"><a href="#" class="plan-list__link">Загородные дома</a></li>
+                <li class="plan-list__item"><span class="plan-list__link link">|</span></li>
+                <li class="plan-list__item"><a href="#" class="plan-list__link">Городские квартиры</a></li>
+            </ul>
+
+        </div>
+        <div class="plan-image">
+            <img src="./img/image-8.png" alt="">
+            <!--<div class="plan-bagie">
+                <p class="plan-bagie__item01">Дом 23</p>
+                <p class="plan-bagie__item02">Дом 234</p>
+                <p class="plan-bagie__item03">Дом 116</p>
+                <p class="plan-bagie__item04">школа №27</p>
+                <p class="plan-bagie__item05">ДОМ 56<br>Вы можете приобрести<br>10 567 457руб</p>
+            </div>-->
+        </div>
+
+    </section>
+    <!-- /section plan -->
+    <!-- section about -->
+    <section class="about">
+        <div class="wrapper">
+            <div class="about-text">
+                <h2 class="title about-text__title">О компании</h2>
+                <p class="about-text__description">Профессиональный оператор рынка элитной недвижимости с 2008 года. HOMEFOR – это сочетание репутации, многолетнего опыта и высокого уровня сервиса. Компания заслужила доверие и признание профессиональных участников рынка
+                </p>
+            </div>
+            <div class="about-adventage-item">
+                <ul class="about-advantage-list">
+                    <li class="about-advantage-list__item about-advantage-list__sketch">
+                        <span></span>Большой опыт<br>в строительстве</li>
+                    <li class="about-advantage-list__item about-advantage-list__price"><span></span>Доступные цены</li>
+                    <li class="about-advantage-list__item about-advantage-list__time"><span></span>Оперативные сроки работы</li>
+                    <li class="about-advantage-list__item about-advantage-list__quality"><span></span>Качественные материалы</li>
+                </ul>
+            </div>
+    </section>
+    <!-- /section about -->
+    <!-- section news -->
+    <section class="section-news">
+        <div class="wrapper">
+            <div class="news-text">
+                <h2 class="title news-text__title">Наши новости</h2>
+                <p class="news-text__description">Узнай новости компании первым. Мы всегда остаемся в тренде.</p>
+            </div>
+
+            <!-- slider -->
+            <div class="slider-slider">
+                <div class="slider-child">
+
+                    <div class="card card-news">
+                        <div class="card__content card__content__img news__content">
+                            <!-- <img class="card__img ibg" src="../img/image-22.png" alt=""> -->
+                            <div class="news-hover">
+                                <p class="news__date">02.04.2020</p>
+                                <p class="news__description">В 2018 году происходили изменения в главном законе долевого строительства ФЗ-214 для решения сложной задачи – строительства 120 млн квадратных метров жилья нового качества и усиления контроля </p>
+                                <button class="news__btn news__link">Смотреть больше</button>
+                            </div>
+                            <!-- <p class="news__date">02.04.2020</p>
+                            <div class="news__description">В 2018 году происходили изменения в главном законе долевого строительства ФЗ-214 для решения сложной задачи – строительства 120 млн квадратных метров жилья нового качества и усиления контроля </div>
+                            <button class="news__btn news__link">Смотреть больше</button> -->
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="slider-child">
+
+                    <div class="card card-news">
+                        <div class="card__content card__content__img news__content">
+                            <!-- <img class="card__img ibg" src="../img/image-22.png" alt=""> -->
+                            <div class="news-hover">
+                                <p class="news__date">02.04.2020</p>
+                                <p class="news__description">В 2018 году происходили изменения в главном законе долевого строительства ФЗ-214 для решения сложной задачи – строительства 120 млн квадратных метров жилья нового качества и усиления контроля </p>
+                                <button class="news__btn news__link">Смотреть больше</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="slider-child">
+
+                    <div class="card card-news">
+                        <div class="card__content card__content__img news__content">
+                            <!-- <img class="card__img ibg" src="../img/image-22.png" alt=""> -->
+                            <div class="news-hover">
+                                <p class="news__date">02.04.2020</p>
+                                <p class="news__description">В 2018 году происходили изменения в главном законе долевого строительства ФЗ-214 для решения сложной задачи – строительства 120 млн квадратных метров жилья нового качества и усиления контроля </p>
+                                <button class="news__btn news__link">Смотреть больше</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="slider-child">
+
+                    <div class="card card-news">
+                        <div class="card__content card__content__img news__content">
+                            <!-- <img class="card__img ibg" src="../img/image-22.png" alt=""> -->
+                            <div class="news-hover">
+                                <p class="news__date">02.04.2020</p>
+                                <p class="news__description">В 2018 году происходили изменения в главном законе долевого строительства ФЗ-214 для решения сложной задачи – строительства 120 млн квадратных метров жилья нового качества и усиления контроля </p>
+                                <button class="news__btn news__link">Смотреть больше</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- /section news -->
+    <hr> <footer class="footer">
+    <div class="wrapper">
+        <div class="footer-item">
+            <div class="footer-logo">
+                <img class="footer-logo__img" src="./img/logo.svg" alt="">
+            </div>
+
+
+            <ul class="footer-contacts-item">
+                <li class="footer-contacts-item__list"><a class="footer-contacts-item__link" href="#">Загородные</a></li>
+                <li class="footer-contacts-item__list"><a class="footer-contacts-item__link" href="#">Городские</a></li>
+                <li class="footer-contacts-item__list"><a class="footer-contacts-item__link" href="#">О компании</a></li>
+                <li class="footer-contacts-item__list"><a class="footer-contacts-item__link" href="#">Наши новости</a></li>
+            </ul>
+
+            <div class="footer-item">
+                <a class="footer__tel" href="tel:+73833456012">+7 (383) 345-60-12</a>
+            </div>
+        </div>
+
+
+        <div class="footer-form">
+            <div class="footer-form-items">
+                <form class="form">
+                    <h3 class="form__title">Подпишись на рассылку</h3>
+                    <input type="email" placeholder="Ваш e-mail" name="mail" class="form__input">
+                    <button class="form__btn">Отправить</button>
+                    <p class="form__text">Согласие на обработку <a class="form__link" href="#">персональных данных</a>.</p>
+                </form>
+            </div>
+
+
+            <div class="footer-form-items">
+                <ul class="footer-social">
+                    <li class="footer-social__item">
+                        <a class="footer-social__link footer-social__vk" href="#" target="_blank"></a>
+                    </li>
+                    <li class="footer-social__item">
+                        <a class="footer-social__link footer-social__inst" href="#" target="_blank"></a>
+                    </li>
+                    <li class="footer-social__item">
+                        <a class="footer-social__link footer-social__fb" href="#" target="_blank"></a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="footer-copyright">
+            <a class="footer-copyright__write">&copy;2020, Все права защищены</a>
+            <p class="footer-copyright__text">Сделано в рамках курса учебной платформы <a class="footer-copyright__link" href="#">Frontend Blok</a></p>
+        </div>
+    </div>
+</footer>
+    <!-- modal -->
+
+    <!-- /modal -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+    <!-- <script>
+        
+    </script> -->
+
+    <script>
+        $(function() {
+            $("#slider-range").slider({
+                range: true,
+                min: 0,
+                max: 500,
+                values: [75, 300],
+                slide: function(event, ui) {
+                    $("#amount").val("$" + ui.values[0] + " - $" + ui.values[1]);
+                }
+            });
+            $("#amount").val("$" + $("#slider-range").slider("values", 0) +
+                " - $" + $("#slider-range").slider("values", 1));
+        });
+
+        $(function() {
+            $("#slider-range02").slider({
+                range: true,
+                min: 0,
+                max: 500,
+                values: [75, 300],
+                slide: function(event, ui) {
+                    $("#amount").val("$" + ui.values[0] + " - $" + ui.values[1]);
+                }
+            });
+            $("#amount").val("$" + $("#slider-range02").slider("values", 0) +
+                " - $" + $("#slider-range02").slider("values", 1));
+        });
+
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
+    <script>
+        $('.slider').slick({
+            dots: true,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 1,
+            adaptiveHeight: true,
+            slidesToScroll: 4,
+            responsive: [{
+                breakpoint: 2700,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                }
+            }, {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                }
+            }]
+        });
+    </script>
+
+    <script>
+        $('.slider-slider').slick({
+            dots: true,
+            arrows: true,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            adaptiveHeight: true,
+            responsive: [{
+                    breakpoint: 1440,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: false,
+                        arrows: true,
+                    }
+                }, {
+                    breakpoint: 1200,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: false,
+                        arrows: true,
+                    }
+                },
+
+                {
+                    breakpoint: 998,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: false,
+                    }
+                }, {
+                    breakpoint: 767,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        centerMode: true,
+                        dots: true,
+                        arrows: false,
+                    }
+                }, {
+                    breakpoint: 520,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        centerMode: false,
+                        dots: true,
+                        arrows: false,
+                    }
+                }
+            ]
+        });
+    </script>
+
+    <script src="js/main.js"></script>
+    <script src="js/vendor.js"></script>
+</body>
+
+</html>
