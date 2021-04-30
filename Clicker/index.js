@@ -27,7 +27,7 @@ function timerChanger() {
 function startGame() {
     isGameStarted = true
     $start.classList.add('hide')
-    $game.style.backgroundColor = '#fff'
+    $game.style.backgroundColor = '#eaf2ff'
 
     let interval = setInterval(function() {
         time = parseFloat($timer.textContent)
@@ -47,7 +47,7 @@ function endGame() {
         $showResult.classList.remove('hide')
         $result.textContent = score
         $restartButton.classList.remove('hide')
-        $game.style.backgroundColor = '#ccc'
+        $game.style.backgroundColor = '#b8bed0'
     }
 }
 
