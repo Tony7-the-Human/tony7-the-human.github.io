@@ -3,6 +3,7 @@
 let $start = document.querySelector('#start') // захват кнопки
 let $game = document.querySelector('#game') // захват рабочей области с position:relative
 let $timer = document.querySelector('#time')
+let $timeHeader = document.querySelector('#time-header')
 let $showResult = document.querySelector('#result-header')
 let $result = document.querySelector('#result')
 let $gameTimeInput = document.querySelector('#game-time')
@@ -18,7 +19,7 @@ $game.addEventListener('click', handleBoxClick)
 
 
 function timerChanger() {
-    if ($gameTimeInput.value >= 1) {
+    if ($gameTimeInput.value >= 5) {
         $timer.textContent = parseFloat($gameTimeInput.value).toFixed(1)
     }
 }
@@ -45,6 +46,7 @@ function endGame() {
     isGameStarted = false
     if (isGameStarted === false) {
         $showResult.classList.remove('hide')
+        $timeHeader.classList.add('hide')
         $result.textContent = score
         $restartButton.classList.remove('hide')
         $game.style.backgroundColor = '#b8bed0'
