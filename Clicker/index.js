@@ -45,6 +45,7 @@ function startGame() {
 
 function endGame() {
     isGameStarted = false
+    $gameTimeInput.setAttribute('disabled', 'false')
     if (isGameStarted === false) {
         $showResult.classList.remove('hide')
         $timeHeader.classList.add('hide')
