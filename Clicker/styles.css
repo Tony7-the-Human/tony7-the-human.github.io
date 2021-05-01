@@ -133,8 +133,8 @@ body {
     -webkit-border-radius: 50px;
     border-radius: 50px;
     background: #fad64e;
-    -webkit-box-shadow: 6px 6px 15px #e9c749, -6px -6px 15px #ffe553;
-    box-shadow: 6px 6px 15px #e9c749, -6px -6px 15px #ffe553;
+    -webkit-box-shadow: 0px 2px 0px #e9c749, -1px -5px 8px #ffe553;
+        box-shadow: 0px 2px 0px #e9c749, -1px -5px 8px #ffe553;
 }
 
 .btn:disabled {
@@ -154,7 +154,7 @@ body {
     -webkit-border-radius: 50px;
     border-radius: 50px;
     background: #fad64e;
-    -webkit-box-shadow: 6px 6px 15px #e9c749, -6px -6px 15px #ffe553;
-    box-shadow: 6px 6px 15px #e9c749, -6px -6px 15px #ffe553;
+    -webkit-box-shadow: 0px 2px 0px #e9c749, -1px -5px 8px #ffe553;
+    box-shadow: 0px 2px 0px #e9c749, -1px -5px 8px #ffe553;
     transform: translateY(-3px);
 }
