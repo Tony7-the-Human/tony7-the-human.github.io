@@ -2361,7 +2361,7 @@ label {
    .filter-item__value {
      -webkit-padding-before: 12px;
       -webkit-padding-end: 61px;
-      -webkit-padding-after: 13px;
+      -webkit-padding-after: 12px;
       -webkit-padding-start: 65px;
   }
 
@@ -2576,7 +2576,7 @@ label {
     padding: 2px 11px 7px 46px;
      -webkit-padding-before: 1px;
       -webkit-padding-end: 11px;
-      -webkit-padding-after: 5px;
+      -webkit-padding-after: 4px;
       -webkit-padding-start: 46px;
     font-size: 12px;
   }
