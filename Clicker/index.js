@@ -28,6 +28,7 @@ function timerChanger() {
 function startGame() {
     isGameStarted = true
     $start.classList.add('hide')
+    $gameTimeInput.setAttribute('disabled', 'true')
     $game.style.backgroundColor = '#eaf2ff'
 
     let interval = setInterval(function() {
