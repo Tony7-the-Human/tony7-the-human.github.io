@@ -2246,6 +2246,20 @@ label {
   .card-link {
     flex: 0 0 48%;
   }
+   
+     .filter-item__size {
+     -webkit-padding-before: 14px;
+      -webkit-padding-end: 66px;
+      -webkit-padding-after: 11px;
+      -webkit-padding-start: 72px;
+  }
+   
+   .filter-item__value {
+     -webkit-padding-before: 12px;
+      -webkit-padding-end: 61px;
+      -webkit-padding-after: 13px;
+      -webkit-padding-start: 65px;
+  }
 }
 
 @media (max-width: 768px) {
