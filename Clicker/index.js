@@ -19,7 +19,7 @@ $game.addEventListener('click', handleBoxClick)
 
 
 function timerChanger() {
-    if ($gameTimeInput.value >= 5) {
+    if ($gameTimeInput.value >= 1) {
         $timer.textContent = parseFloat($gameTimeInput.value).toFixed(1)
     }
 }
