@@ -36,7 +36,7 @@ ___
 
 ___
 #### :envelope: Мои контакты:
-* ВКонтакте: [@antonprostiakov](https://vk.com/tony7_the_human)
+* ВКонтакте: [@antonprostiakov](https://vk.com/tony_the_human)
 * Telegram: [@antonprostiakov](https://t.me/Tony7_The_Human)
 * E-mail: [mrfox88@yandex.ru](mrfox88@yandex.ru)
 
