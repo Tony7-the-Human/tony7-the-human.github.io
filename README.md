@@ -4,7 +4,17 @@
 :bangbang: Делаю валидную и семантическую, а также адаптивную и кроссбраузерную верстку по готовым макетам. 
 
 ___
-### Мои навыки и примеры работ ниже! :point_down:
+#### :thumbsup: Примеры моих работ: 
+
+- https://tony7-the-human.github.io/CV/
+- https://tony7-the-human.github.io/organic/
+- https://tony7-the-human.github.io/flowers/
+- https://tony7-the-human.github.io/homefor/
+- https://tony7-the-human.github.io/Clicker/
+- https://tony7-the-human.github.io/tony-the-human/
+
+___
+### Мои навыки: :point_down:
 
 ___
 #### Хорошо владею HTML и CSS, JS, имею опыт реализации анимации на сайте.
@@ -23,17 +33,6 @@ ___
 * препроцессором Sass;
 * методологией БЭМ;
 * Pixel Perfect.
-
-___
-#### :thumbsup: Примеры моих работ: 
-
-- https://tony7-the-human.github.io/CV/
-- https://tony7-the-human.github.io/organic/
-- https://tony7-the-human.github.io/flowers/
-- https://tony7-the-human.github.io/homefor/
-- https://tony7-the-human.github.io/Clicker/
-- https://tony7-the-human.github.io/tony-the-human/
-
 
 ___
 #### :envelope: Мои контакты:
