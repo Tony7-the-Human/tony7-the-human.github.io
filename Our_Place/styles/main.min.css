@@ -412,6 +412,7 @@ body {
     color: #35312e;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
     font-size: 1.6rem;
 }
 input {
@@ -1158,8 +1159,12 @@ input {
         padding: 17px 5px 17px 10px;
     }
     .footer-input__btn {
-        padding: 21px 9px 19px;
+        padding: 21px 9px 19px 0px;
         margin-left: -16px;
+        -webkit-padding-before: 21px;
+    -webkit-padding-end: 0px;
+    -webkit-padding-after: 19px;
+    -webkit-padding-start: 9px;
     }
     .footer-item__list {
         flex: 0 1 29%;
@@ -1197,7 +1202,7 @@ input {
         height: 20px;
     }
     .ml {
-        max-width: 350px;
+        max-width: 265px;
         margin: 0 0 0 70px;
     }
     .design-text__visual {
