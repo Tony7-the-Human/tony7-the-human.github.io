@@ -289,7 +289,7 @@ ul {
     padding: var(--offset-vertical) var(--offset-horizontal);
     width: 34px;
     height: 34px;
-    background-color: #ccc;
+    background-color: #c87b5e;
     border-radius: 100%;
     z-index: 6666;
 }
@@ -304,7 +304,7 @@ ul {
     top: var(--offset-vertical);
     width: calc(100% - (var(--offset-horizontal) * 2));
     height: 2px;
-    background-color: #000000;
+    background-color: #fff;
     transform: translateX(-50%);
     transition: 0.2s;
 }
