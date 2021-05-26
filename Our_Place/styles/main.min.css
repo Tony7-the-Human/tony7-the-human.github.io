@@ -213,55 +213,75 @@ ul {
     background: #ad674f;
     border: 1px solid #ad674f;
 }
+/* Сброс стилей кнопки */
+
 .btn-reset {
     padding: 0;
     border: none;
     background-color: transparent;
     cursor: pointer;
-    outline: 0;
+    outline: none;
 }
+
 .menu-block {
     display: flex;
     align-items: baseline;
 }
+
 .menu-nav {
     position: absolute;
-    left: 0;
-    top: -400px;
+    left: 0px;
+    top: -500px;
     background-color: #000;
-    border-radius: 0;
+    border-radius: 5px;
     z-index: 666;
-    padding: 20px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 0px;
+    -webkit-transition: top 0.5s;
     transition: top 0.5s;
+    width: 100%;
 }
+
 .active-nav {
-    top: 65px;
-    left: 0;
-    border-radius: 10px;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1;
 }
+
 .menu-nav__list {
     display: flex;
     flex-direction: column;
+    align-items: center;
     list-style-type: none;
 }
+
 .menu-nav__list li {
     padding-right: 20px;
     padding-bottom: 30px;
+    padding-top: 35px;
 }
+
 .menu-nav__item {
     color: #fff;
 }
+
 .menu-nav__link {
     text-decoration: none;
     color: #c87b5e;
     font-weight: 700;
-    font-size: 1.3rem;
+    font-size: 2.3rem;
     line-height: 22px;
     letter-spacing: 0.5px;
     text-transform: uppercase;
-    transition: 0.3s;
+    transition: .3s ease;
     cursor: pointer;
 }
+
+
+/* Бургер-меню */
+
 .burger-menu {
     --offset-horizontal: 9px;
     --offset-vertical: 10px;
@@ -273,6 +293,10 @@ ul {
     border-radius: 100%;
     z-index: 6666;
 }
+
+
+/* Линии для бургер-меню */
+
 .burger-line {
     position: absolute;
     display: inline-block;
@@ -280,12 +304,20 @@ ul {
     top: var(--offset-vertical);
     width: calc(100% - (var(--offset-horizontal) * 2));
     height: 2px;
-    background-color: #000;
+    background-color: #000000;
     transform: translateX(-50%);
+    transition: 0.2s;
 }
+
+.burger-line_active {
+    transition: 0.5s;
+    transform: rotate(90deg);
+}
+
 .burger-line:nth-child(2) {
     top: calc(var(--offset-vertical) + 6px);
 }
+
 .burger-line:nth-child(3) {
     top: calc(var(--offset-vertical) + 12px);
 }
