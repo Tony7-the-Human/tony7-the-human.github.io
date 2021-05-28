@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Landing</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/script.js" defer></script>
+    <script src="js/lang.js" defer></script>
+    <script src="js/app.js" defer></script>
+
+</head>
+
+<body>
+    <!-- burger menu -->
+    <button class="burger-menu btn-reset">
+      <span class="burger-line"></span>
+      <span class="burger-line"></span>
+      <span class="burger-line"></span>
+    </button>
+    <nav class="menu-nav">
+        <ul class="menu-nav__list">
+            <li class="nav-list__item"><a href="#hero" class="menu-nav__link lng-nav-home-b">Home</a></li>
+            <li class="nav-list__item"><a href="#about" class="menu-nav__link lng-nav-about-b">About me</a></li>
+            <li class="nav-list__item"><a href="#skills" class="menu-nav__link lng-nav-skills-b">Skills</a></li>
+            <li class="nav-list__item"><a href="#portfolio" class="menu-nav__link lng-nav-portfolio-b">Portfolio</a></li>
+            <li class="nav-list__item"><a href="#contacts" class="menu-nav__link lng-nav-contacts-b">Contacts</a></li>
+        </ul>
+    </nav>
+    <!-- /burger menu -->
+    <header class="header">
+        <div class="container container-header">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-list__item"><a href="#hero" class="nav-list__link lng-nav-home">Home</a></li>
+                    <li class="nav-list__item"><a href="#about" class="nav-list__link lng-nav-about">About me</a></li>
+                    <li class="nav-list__item"><a href="#skills" class="nav-list__link lng-nav-skills">Skills</a></li>
+                    <li class="nav-list__item"><a href="#portfolio" class="nav-list__link lng-nav-portfolio">Portfolio</a></li>
+                    <li class="nav-list__item"><a href="#contacts" class="nav-list__link lng-nav-contacts">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="hero" class="section-hero anim2">
+            <div class="container">
+                <div class="hero-container">
+                    <h1 class="hero-title title hero__elem_01 lng-hero-title">Tatiana Novik</h1>
+                    <p class="hero-descr hero__elem_02 lng-hero-descr">UX <span class="hero-descr__bord">|</span> UI designer 24&nbspyears old, Minsk</p>
+                    <!-- <p class="hero-languages hero__elem_03"><button class="hero-languages__rueng select" value="ru">RU</button> <span class="hero-descr__bord">|</span><button class="hero-languages__rueng select" value="en"> ENG</button></p> -->
+                    <select name="select" class="hero-languages hero__elem_03"> 
+                        <option class="option" value="ru" >Ru</option>
+                        <option class="option" value="en" selected>Eng</option>
+                        
+                      </select>
+                </div>
+                <div class="hero-image">
+                    <img src="./img/portrait1.png" alt="Designer photo" class="hero-image__img">
+                </div>
+            </div>
+        </section>
+        <section id="about" class="section-about anim1">
+            <div class="container">
+                <h2 class="about-title title lng-about-title">About me</h2>
+                <p class="about-descr lng-about-descr-1">Hi, I'm Tatiana – UX/UI designer from Minsk. I'm interested in design and everything connected with it.</p>
+                <p class="about-descr lng-about-descr-2">I'm studying at courses "Web and mobile design interfaces" in IT-Academy.</p>
+                <p class="about-descr lng-about-descr-3">Ready to implement excellent projects with wonderful people.</p>
+            </div>
+        </section>
+        <section id="skills" class="section-skills ">
+            <div class="container">
+                <h2 class="skills-title anim2 lng-skills-title">Skills</h2>
+                <p class="skills-descr lng-skills-descr">I work in such programs as</p>
+                <div class="skills-images">
+                    <div class="skills-image-card anim3">
+                        <img src="/img/ps.svg" alt="Adobe Photoshop" class="skills-images__img animate__animated animate__rollIn">
+                        <p class="skills-image__text animate__animated animate__rollIn">Adobe Photoshop</p>
+                        <img src="/img/ratio-ps.svg" alt="Adobe Photoshop" class="skills-images__img ps animate__animated animate__rollIn">
+                    </div>
+                    <div class="skills-image-card anim3">
+                        <img src="/img/ai.svg" alt="Adobe Illustrator" class="skills-images__img animate__animated animate__rollIn">
+                        <p class="skills-image__text animate__animated animate__rollIn">Adobe Illustrator
+                        </p>
+                        <img src="/img/ratio-ai.svg" alt="Adobe Illustrator" class="skills-images__img ai animate__animated animate__rollIn">
+                    </div>
+                    <div class="skills-image-card anim3">
+                        <img src="/img/ae.svg" alt="Adobe After Effects" class="skills-images__img animate__animated animate__rollIn">
+                        <p class="skills-image__text animate__animated animate__rollIn">Adobe After Effects</p>
+                        <img src="/img/ratio-ae.svg" alt="Adobe After Effects" class="skills-images__img ae animate__animated animate__rollIn">
+                    </div>
+                    <div class="skills-image-card anim3">
+                        <img src="/img/figma.svg" alt="Figma" class="skills-images__img animate__animated animate__rollIn">
+                        <p class="skills-image__text animate__animated animate__rollIn">Figma</p>
+                        <img src="/img/ratio-figma.svg" alt="Figma" class="skills-images__img figma animate__animated animate__rollIn">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="portfolio" class="section-portfolio">
+            <div class="container">
+                <h2 class="portfolio-title title anim2 lng-portfolio-title">Portfolio</h2>
+                <div class="portfolio-items">
+                    <img src="/img/levis-936.jpg" alt="Levi`s image" class="portfolio-img levis anim6">
+                    <a href="#" class="portfolio-link portfolio-link__01">Online fashion store - Homepage</a>
+                    <img src="/img/reebok-936.jpg" alt="Reebok image" class="portfolio-img reebok anim6">
+                    <img src="/img/brown-936.jpg" alt="Brown image" class="portfolio-img brown anim6">
+                    <a href="#" class="portfolio-link portfolio-link__02">Braun Landing Page - Concept</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="contacts" class="footer">
+        <div class="container">
+            <h2 class="footer-title title lng-footer-title">Contacts</h2>
+            <p class="footer-descr lng-footer-descr">Want to know more or just chat? You are welcome!</p>
+            <a href="#" class="footer-btn btn lng-footer-btn">Send message</a>
+            <div class="footer-images">
+                <img src="/img/in.svg" alt="LinkedIn" class="footer-images__img">
+                <img src="/img/inst.svg" alt="Instagram" class="footer-images__img">
+                <img src="/img/behance.svg" alt="Behance" class="footer-images__img">
+                <img src="/img/dribbl.svg" alt="Dribble" class="footer-images__img">
+            </div>
+            <p class="footer-cprt lng-footer-cprt">Like me on <br>LinkedIn, Instagram, Behance, Dribble</p>
+        </div>
+    </footer>
+    <script src="/js/skroll.js" type="text/javascript"></script>
+    <script>
+        let skroll = new Skroll()
+            .add(".anim0", {
+                animation: "zoomIn",
+                duration: 600
+            })
+            .add(".anim1", {
+                animation: "fadeInUp",
+                delay: 120,
+                duration: 600,
+                wait: 250
+            })
+            .add(".anim2", {
+                animation: "flipInX",
+                delay: 300,
+                duration: 750
+            })
+            .add(".anim3", {
+                animation: "rotateLeftIn",
+                delay: 180,
+                duration: 750
+            })
+            .add(".anim4", {
+                animation: "slideInLeft",
+                delay: 80,
+                duration: 800
+            })
+            .add(".anim5", {
+                animation: "growInLeft",
+                delay: 180,
+                duration: 500,
+                easing: "cubic-bezier(0.37, 0.27, 0.24, 1.26)"
+            })
+            .add(".anim6", {
+                animation: "growInRight",
+                delay: 1200,
+                duration: 1000,
+                easing: "cubic-bezier(0.37, 0.27, 0.24, 1.26)",
+            })
+            .addAnimation("spinIn", {
+                start: function(el) {
+                    el.style["transform"] = "rotate(-360deg) scale(.2,.2)";
+                    el.style["transform-origin"] = "50% 50%";
+                    el.style["opacity"] = 0;
+                },
+                end: function(el) {
+                    el.style["transform"] = "rotate(0deg) scale(1,1)";
+                    el.style["opacity"] = 1;
+                }
+            })
+            .add(".anim7", {
+                animation: "spinIn",
+                delay: 80,
+                duration: 500,
+                easing: "cubic-bezier(0.37, 0.27, 0.24, 1.26)"
+            })
+            .add(".anim8", {
+                animation: "fadeInDown",
+                delay: 75,
+                duration: 150,
+                triggerBottom: 1,
+                easing: "cubic-bezier(0.37, 0.27, 0.24, 1.26)"
+            })
+            .init();
+    </script>
+</body>
+
+</html>
