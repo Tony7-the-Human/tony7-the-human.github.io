@@ -652,6 +652,17 @@ p.about-descr {
     transform: translateX(-50%);
 }
 
+.burger-line-1 {
+    position: absolute;
+    display: inline-block;
+    left: 50%;
+    top: var(--offset-vertical);
+    width: calc(100% - (var(--offset-horizontal) * 2));
+    height: 2px;
+    background-color: #000000;
+    transform: translateX(-50%);
+}
+
 .burger-line_active {
     transition: 0.5s;
     transform: rotate(90deg);
@@ -673,4 +684,24 @@ p.about-descr {
 
 .burger-line:nth-child(3) {
     top: calc(var(--offset-vertical) + 12px);
+}
+
+
+/* 0 */
+
+.burger-line-1:nth-child(1) {
+    top: calc(var(--offset-vertical) + 6px);
+    transition: .4s ease;
+    transform: translateX(-50%) rotate(-45deg);
+}
+
+.burger-line-1:nth-child(2) {
+    top: calc(var(--offset-vertical) + 6px);
+    display: none;
+}
+
+.burger-line-1:nth-child(3) {
+    top: calc(var(--offset-vertical) + 6px);
+    transition: .4s ease;
+    transform: translateX(-50%) rotate(45deg);
 }
