@@ -202,6 +202,17 @@ body {
     border: none;
     background-color: transparent;
     color: #828282;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: none;
+    transition: .3s ease;
+    cursor: pointer;
+}
+
+.hero-languages:hover {
+    color: #070707;
 }
 
 @media (max-width: 500px) {
