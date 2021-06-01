@@ -13,7 +13,6 @@ ___
 - https://tony7-the-human.github.io/Clicker/
 - https://tony7-the-human.github.io/designer-cv/
 - https://tony7-the-human.github.io/Our_Place/
-- https://tony7-the-human.github.io/tony-the-human/
 
 ___
 ### Мои навыки: :point_down:
