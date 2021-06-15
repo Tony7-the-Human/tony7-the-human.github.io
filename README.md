@@ -1,18 +1,19 @@
 
 ## :hand: Привет! 
-### :blush: Меня зовут Антон Простяков и я занимаюсь версткой сайтов и e-mail писем. 
+### :blush: Меня зовут Антон Простяков, и я занимаюсь версткой сайтов и e-mail писем. 
 :bangbang: Делаю валидную и семантическую, а также адаптивную верстку по готовым макетам. 
 
 ___
 #### :thumbsup: Примеры моих работ: 
 
-- https://tony7-the-human.github.io/CV/
-- https://tony7-the-human.github.io/organic/
-- https://tony7-the-human.github.io/flowers/
-- https://tony7-the-human.github.io/homefor/
-- https://tony7-the-human.github.io/Clicker/
-- https://tony7-the-human.github.io/designer-cv/
-- https://tony7-the-human.github.io/Our_Place/
+- [Сайт-визитка на Bootstrap](https://tony7-the-human.github.io/CV/)
+- [Интернет-магазин Healthly Food](https://tony7-the-human.github.io/organic/)
+- [Интернет-магазин Flowers Shop](https://tony7-the-human.github.io/flowers/)
+- [Магазин недвижимости Homefor](https://tony7-the-human.github.io/homefor/)
+- [Сайт-портфолио для дизайнера](https://tony7-the-human.github.io/designer-cv/)
+- [Интернет-магазин Our Place](https://tony7-the-human.github.io/Our_Place/)
+- [Игра на JS "Clicker"](https://tony7-the-human.github.io/Clicker/)
+- [Раскрытие карточек по клику на них](https://tony7-the-human.github.io/Slider-plug-in/)
 
 ___
 ### Мои навыки: :point_down:
