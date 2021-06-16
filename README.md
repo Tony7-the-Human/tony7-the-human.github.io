@@ -19,6 +19,7 @@ ___
 - [Игра на JS "Clicker"](https://tony7-the-human.github.io/Clicker/)
 - [Раскрытие карточек по клику на них](https://tony7-the-human.github.io/Slider-plug-in/)
 - [Drag-n-Drop плагин](https://tony7-the-human.github.io/Canban-Dock/)
+- [Слайдер](https://tony7-the-human.github.io/Custon-Slider/)
 
 ___
 ### Мои навыки: :point_down:
