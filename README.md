@@ -14,6 +14,7 @@ ___
 - [Магазин недвижимости Homefor](https://tony7-the-human.github.io/homefor/)
 - [Сайт-портфолио для дизайнера](https://tony7-the-human.github.io/designer-cv/)
 - [Интернет-магазин Our Place](https://tony7-the-human.github.io/Our_Place/)
+- [Сайт Frispes.](https://tony7-the-human.github.io/Frispes/)
 
 #### :page_with_curl: Работы(Игры и плагины для сайтов) на JavaScript:
 - [Игра на JS "Aim Training"](https://tony7-the-human.github.io/Aim-training/)
