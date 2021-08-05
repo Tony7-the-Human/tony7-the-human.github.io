@@ -24,6 +24,8 @@ samp {
 }
 a {
     background-color: transparent;
+    text-decoration: none;
+    display: inline-block;
 }
 abbr[title] {
     border-bottom: none;
