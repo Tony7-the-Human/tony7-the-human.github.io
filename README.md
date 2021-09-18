@@ -8,7 +8,7 @@ ___
 
 
 #### :page_with_curl: Сайты:
-- [Верстка блоков для сайта Frontendblok.com](https://frontendblok.com/marathons/web-marathon)
+- [Верстка блоков для сайта Frontendblok.com](https://frontendblok.com/marathons/web-marathon) (блоки: "После прохождения марафона ты...", "Расписание", "Об авторе")
 - [Сайт-визитка на Bootstrap](https://tony7-the-human.github.io/CV/)
 - [Интернет-магазин Healthly Food](https://tony7-the-human.github.io/organic/)
 - [Магазин недвижимости Homefor](http://tony7.beget.tech/homefor/index.html)
