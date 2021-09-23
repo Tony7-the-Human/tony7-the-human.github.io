@@ -9,7 +9,7 @@ ___
 
 #### :page_with_curl: Сайты:
 - [Верстка блоков для сайта Frontendblok.com](https://frontendblok.com/marathons/web-marathon) (блоки: "После прохождения марафона ты...", "Расписание", "Об авторе")
-- [Маркетинговое агентство Mindful Under Ads](https://tony7-the-human.github.io/Mindful/)
+- [Маркетинговое агентство Mindful Under Ads](http://underads.ru/)
 - [Сайт-визитка на Bootstrap](https://tony7-the-human.github.io/CV/)
 - [Интернет-магазин Healthly Food](https://tony7-the-human.github.io/organic/)
 - [Магазин недвижимости Homefor](http://tony7.beget.tech/homefor/index.html)
