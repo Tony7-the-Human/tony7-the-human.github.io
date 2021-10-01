@@ -1579,6 +1579,14 @@ body {
   color: #27300f;
   font-size: 1.5rem;
   font-weight: 500;
+   transition: color .3s ease;
+}
+
+
+.contacts-list__link:hover {
+  
+  color: #d26a22;
+  
 }
 
 .modal-nav {
