@@ -648,6 +648,7 @@ ul {
   padding: 1px 43px;
   letter-spacing: 3.24px;
   margin-left: -4px;
+  cursor: pointer;
   transition: .3s ease;
 }
 
