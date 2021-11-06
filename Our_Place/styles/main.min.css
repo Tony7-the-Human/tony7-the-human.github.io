@@ -786,6 +786,7 @@ input {
 .goods__item {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 .goods__image {
     -ms-grid-row-align: center;
