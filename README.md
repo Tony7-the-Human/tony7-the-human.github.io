@@ -9,7 +9,7 @@ ___
 
 #### :page_with_curl: Сайты:
 - [Верстка блоков для сайта Frontendblok.com](https://frontendblok.com/marathons/web-marathon) 
-- [Маркетинговое агентство Landinfluence](https://landinfluence.ru/)
+- [Маркетинговое агентство Landinfluence](https://landinfluence.ru/)  | (https://tony7-the-human.github.io/Mindful/)
 - [Сайт-визитка на Bootstrap](https://tony7-the-human.github.io/CV/)
 - [Интернет-магазин Healthly Food](https://tony7-the-human.github.io/organic/)
 - [Магазин недвижимости Homefor](http://tony7.beget.tech/homefor/index.html)
